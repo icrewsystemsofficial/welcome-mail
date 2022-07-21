@@ -1,0 +1,17 @@
+{
+    "name": "icrewsystems/welcome-mail",
+    "description": "A simple package to send welcome mail to user",
+    "autoload": {
+        "psr-4": {
+            "Icrewsystems\\WelcomeMail\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers" : [
+                "Icrewsystems\\WelcomeMail\\WelcomeMailServiceProvider"
+            ]
+        }
+    }
+}
