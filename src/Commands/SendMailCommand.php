@@ -32,6 +32,7 @@ class SendMailCommand extends Command
        $name = $this->ask('Enter user name');
        $emailId = $this->ask('Enter user email');
 
+       // added git tags
        $mail = new WelcomeMail($name);
        Mail::to($emailId)->send($mail);
 
